@@ -12,9 +12,9 @@ Environment: PyCharm 2020.2.3
 Packages: Geopandas 0.8.1, numpy 1.19.2, pandas 1.1.2, folium 0.11.0, contextily 1.0.1, Fiona 1.8.17, GDAL 3.1.3, selenium 3.141.0
 
 This is intended to be a guide for analysts and statisticians with a mid-level knowledge of Python and programming fundamentals, that will aid them in creating 
-a variety of interactive chloropleth maps that would be suitable for enhancing dashboard data visualisations and application UX.  Mapping with open-source software is not easy but can greatly help extract the truth from within datasets. 
+a variety of interactive chloropleth maps that would be suitable for enhancing dashboard data visualisations and application UX.  Mapping with open-source software is not easy but can greatly help extract the greater picture from your datasets. 
 
-You can use this with an existing dataset providing it has a breakdown of your chosen geography level.You must also have access to the software stated above and the ESRI shapefiles of your chosen geography. These are too large to host on github repositories but can be found at spatialdata.gov.scot.
+You can use this with an existing dataset providing it has a breakdown of your chosen geography level. You must also have access to the software stated above and the ESRI shapefiles of your chosen geography. These are too large to host on github repositories but can be found at spatialdata.gov.scot.
 
 Install of geospatial mapping software for Python requires geopandas and several key dependencies. Install using minicondas or homebrew is recommended, rather than 
 pip for this reason. A guide to install can be found here: https://geopandas.org/install.html. 
