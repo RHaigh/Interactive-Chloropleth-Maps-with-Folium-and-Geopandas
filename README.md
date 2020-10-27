@@ -31,7 +31,7 @@ For this guide follow the folium_chloropleth_maps.py file in this repository. Th
 ![Example simple output](./example_output1.png)
 
 # Stage 2: Interactive Time Series Chloropleth Maps
-Once you have completed stage 1, we may revisit the dataset in order to create an interactive map that allows us to track the changes in our given variable over a specific time period, rather than just viewing a static snapshot. Use this if you wish to add an additional level of analysis to visual aids in your applications or dashboards. 
+Once you have completed stage 1, we may revisit the dataset in order to create an interactive map that allows us to track the changes in our given variable over a specific time period, rather than just viewing a static snapshot. Use the file time_series_maps.py if you wish to add an additional level of analysis to visual aids in your applications or dashboards. 
 
 The nature of the output does not allow for extracting in .pdf or .png format but screenshots will allow us to demonstrate the use of the time slider function:
 
