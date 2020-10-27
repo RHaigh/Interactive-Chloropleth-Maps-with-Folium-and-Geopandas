@@ -9,7 +9,7 @@ Written - Python 3.8.6
 
 Environment: PyCharm 2020.2.3
 
-Packages: Geopandas 0.8.1, numpy 1.19.2, pandas 1.1.2, folium 0.11.0, contextily 1.0.1, Fiona 1.8.17, GDAL 3.1.3, selenium 3.141.0
+Packages: Geopandas 0.8.1, numpy 1.19.2, pandas 1.1.2, folium 0.11.0, contextily 1.0.1, Fiona 1.8.17, GDAL 3.1.3, selenium 3.141.0, branca 0.4.1 
 
 This is intended to be a guide for analysts and statisticians with a mid-level knowledge of Python and programming fundamentals, that will aid them in creating 
 a variety of interactive chloropleth maps that would be suitable for enhancing dashboard data visualisations and application UX.  Mapping with open-source software is not easy but can greatly help extract the greater picture from your datasets. 
