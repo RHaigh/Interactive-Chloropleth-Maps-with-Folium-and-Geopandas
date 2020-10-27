@@ -16,21 +16,21 @@ a variety of interactive chloropleth maps that would be suitable for enhancing d
 
 You can use this with an existing dataset providing it has a breakdown of your chosen geography level. You must also have access to the software stated above and the ESRI shapefiles of your chosen geography. These are too large to host on github repositories but can be found at spatialdata.gov.scot.
 
-Install of geospatial mapping software for Python requires geopandas and several key dependencies. Install using minicondas or homebrew is recommended, rather than 
-pip for this reason. A guide to install can be found here: https://geopandas.org/install.html. 
+Install of geospatial mapping software for Python requires geopandas and several key dependencies. Install using minicondas or homebrew is recommended, rather than pip for this reason. A guide to install can be found here: https://geopandas.org/install.html. 
 
 This repository will be broken down into several stages that should be worked through linearly. 
 
 Data will be coronavirus cases by UK local authority from February to October 2020. This data is contained in this repository in csv format. Guidance on download 
 of shapefiles will be within the py file. 
 
-# Stage 1: Create Simple Folium Chloropleth Map
-Use this if you wish for an html, pdf or png output file that shows your desired geography level breakdown (be it LA, DZ or HB) and wish to shade each geog area by  
-a given variable such as population, wealth or any other quantifiable numeric measurement. If you use an html output file then you can retain the interactive user 
-properties this format allows, similar to JS leaflet, such as navigation and zoom. 
+# Stage 1: Create Simple Folium Chloropleth Maps
+Use this if you wish for an html, pdf or png output file that shows your desired geography level breakdown (be it LA, DZ or HB) and wish to shade each geog area by a given variable such as population, wealth or any other quantifiable numeric measurement. If you use an html output file then you can retain the interactive user properties this format allows, similar to JS leaflet, such as navigation and zoom. 
 
 For this guide follow the folium_chloropleth_maps.py file in this repository. This will allow customisable output such as: 
 
 ![Example simple output](./example_output1.png)
+
+# Stage 2: Interactive Time Series Chloropleth Maps
+Once you have completed stage 1, we may revisit the dataset in order to create an interactive map that allows us to track the changes in our given variable over a specific time period, rather than just viewing a static snapshot. Use this if you wish to add an additional level of analysis to visual aids in your applications or dashboards. 
 
 
