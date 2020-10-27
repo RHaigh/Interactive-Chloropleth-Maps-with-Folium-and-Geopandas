@@ -1,5 +1,5 @@
 # Interactive Chloropleth Maps with Folium and Geopandas
-A brief guide on how to create interactive html or png maps of a chosen variable broken down by a chosen geography level and date using the python programming language and supporting libraries. 
+A guide on how to create interactive html or static png/pdf maps of a chosen variable broken down by a chosen geography level and date using the python programming language and supporting libraries. 
 
 Author: Richard Haigh
 
